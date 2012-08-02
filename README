@@ -1,0 +1,11 @@
+The DLLMasher is a (mostly) working tool that converts a compiled DLL into a COFF object and eventually a .lib file to statically link the code it contains.
+
+There are three projects:
+
+DLLMasher : The tool itself
+
+TestDLL : A test DLL
+
+MemoryDLLTest : A test program that uses TestDLL
+
+

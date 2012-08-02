@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryDLLTest", "MemoryDLLTest\MemoryDLLTest.vcxproj", "{858C2340-E6B6-4E21-98FE-35C1863A8EEA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF} = {A2225129-5371-4EC7-9C7F-6B592F0A64DF}
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8} = {347B6DBF-1307-49A3-A9C4-C21169D231A8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDLL", "TestDLL\TestDLL.vcxproj", "{A2225129-5371-4EC7-9C7F-6B592F0A64DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8} = {347B6DBF-1307-49A3-A9C4-C21169D231A8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLMasher", "DLLMasher\DLLMasher.vcxproj", "{347B6DBF-1307-49A3-A9C4-C21169D231A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Debug|Win32.Build.0 = Debug|Win32
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Debug|x64.ActiveCfg = Debug|x64
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Debug|x64.Build.0 = Debug|x64
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Release|Win32.ActiveCfg = Release|Win32
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Release|Win32.Build.0 = Release|Win32
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Release|x64.ActiveCfg = Release|x64
+		{858C2340-E6B6-4E21-98FE-35C1863A8EEA}.Release|x64.Build.0 = Release|x64
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Debug|Win32.Build.0 = Debug|Win32
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Debug|x64.ActiveCfg = Debug|x64
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Debug|x64.Build.0 = Debug|x64
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Release|Win32.ActiveCfg = Release|Win32
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Release|Win32.Build.0 = Release|Win32
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Release|x64.ActiveCfg = Release|x64
+		{A2225129-5371-4EC7-9C7F-6B592F0A64DF}.Release|x64.Build.0 = Release|x64
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Debug|Win32.Build.0 = Debug|Win32
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Debug|x64.ActiveCfg = Debug|x64
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Debug|x64.Build.0 = Debug|x64
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Release|Win32.ActiveCfg = Release|Win32
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Release|Win32.Build.0 = Release|Win32
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Release|x64.ActiveCfg = Release|x64
+		{347B6DBF-1307-49A3-A9C4-C21169D231A8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
